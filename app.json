@@ -1,12 +1,20 @@
 {
   "expo": {
-    "name": "blank",
-    "slug": "blank",
+    "name": "Test",
+    "slug": "Test",
     "version": "1.0.0",
     "platforms": [
       "ios",
       "android",
       "web"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d9bd509c-1acc-4bb8-ad82-b00c4703a31d"
+      }
+    },
+    "android": {
+      "package": "com.lsuarezdev.test"
+    }
   }
 }
